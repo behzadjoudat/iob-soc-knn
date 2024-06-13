@@ -75,7 +75,7 @@ sim-debug:
 # BUILD, LOAD AND RUN ON FPGA BOARD
 #
 #default board running locally or remotely
-BOARD ?=CYCLONEV-GT-DK
+BOARD ?=ARTY
 BOARD_DIR =$(shell find hardware -name $(BOARD))
 #default baud and system clock freq for boards
 BOARD_BAUD = 115200
